@@ -1,0 +1,11 @@
+[project]
+name = "port-gen"
+version = "0.1.0"
+description = "Generate a random port within the Ephemeral Ports range"
+requires-python = ">=3.8"
+dependencies = [
+    "click>=8.3.1",
+]
+
+[project.scripts]
+port-gen = "port_gen.__main__:main"
